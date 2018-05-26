@@ -1,6 +1,6 @@
 #Login-AzureRmAccount
-$storageAccountName = "blobtierlabm4vncfbha6qwi"
-$storageAccountKey = "gZYDl2AQV20OKPrNXje9Su0NDpXJVKW0DbTifHgsesuywMhWlQAsG6MN9MI9Lpj6nTWxdngPx02B0SVG6EHKWg=="
+$storageAccountName = "l200XXXX"
+$storageAccountKey = "XXXX"
 $rndstring = $(-join ((65..90) + (97..122) | Get-Random -Count 5 | % {[char]$_})).ToLower()
 $blobname = "archivedata$rndstring.txt"
 $containerName = "archivefiles$rndstring"
